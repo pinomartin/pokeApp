@@ -20,7 +20,7 @@ export const DetailPokemon = () => {
     
 
     return pokemon ? (
-        <div className="card mt-4 text-center">
+        <div className="card mt-3 text-center">
             <div className="card-body">
                 <img src={pokemon.img} alt={pokemon.name} className="img-fluid"/>
                 <div className="card-title text-uppercase">

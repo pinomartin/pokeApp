@@ -20,9 +20,9 @@ export const Pokemons = () => {
 
 
     return (
-        <div className="row">
+        <div className="row mt-3">
             <div className="col-md-6">
-            <h3>Lista de Pokemones</h3>
+            <h3>Pokemons List</h3>
             <hr/>
             <div className="d-flex justify-content-between">
 
@@ -71,8 +71,8 @@ export const Pokemons = () => {
                 }
             </ul>
             </div>
-            <div className="col-md-6">
-                <h3>Detalle Pokemon</h3>
+            <div className="col-md-6 text-center">
+                <h4>Pokemon Details</h4>
                 <DetailPokemon />
             </div>
         </div>
