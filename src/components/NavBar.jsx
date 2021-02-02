@@ -25,6 +25,9 @@ const NavBar = (props) => {
             <NavLink className="btn btn-dark mr-2" to="/" exact>
               Home
             </NavLink>
+            <NavLink className="btn btn-dark mr-2" to="/profile" exact>
+              Profile
+            </NavLink>
             <button
               onClick={() => closeSession()}
               className="btn btn-dark mr-2"
